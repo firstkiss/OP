@@ -21,3 +21,5 @@ git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app
 svn co https://github.com/sirpdboy/sirpdboy-package/trunk/AdGuardHome/files/etc files/etc
 echo '下载主题'
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-argon_new package/luci-theme-argon_new
+echo '下载ServerChan'
+git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
